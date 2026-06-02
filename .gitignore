@@ -1,61 +1,46 @@
-# Backend (.NET)
-InterfaceIndustrialApi/bin/
-InterfaceIndustrialApi/obj/
-InterfaceIndustrialApi/.vs/
-InterfaceIndustrialApi/.vscode/
-InterfaceIndustrialApi/*.user
-InterfaceIndustrialApi/*.suo
-InterfaceIndustrialApi/appsettings.Development.json
-InterfaceIndustrialApi/.DS_Store
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
 
-# Frontend (Node.js)
-interface-industrial-frontend/node_modules/
-interface-industrial-frontend/.next/
-interface-industrial-frontend/dist/
-interface-industrial-frontend/build/
-interface-industrial-frontend/.env.local
-interface-industrial-frontend/.env.*.local
-interface-industrial-frontend/npm-debug.log*
-interface-industrial-frontend/yarn-debug.log*
-interface-industrial-frontend/yarn-error.log*
-interface-industrial-frontend/.DS_Store
+# testing
+/coverage
 
-# IDE
+# next.js
+/.next/
+
+# build outputs
+/dist/
+/build/
+/out/
+
+# environment files
+.env.local
+.env.*.local
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+*.log
+
+# editor / OS
 .vscode/
 .idea/
 *.swp
 *.swo
 *~
 .DS_Store
-
-# OS
 Thumbs.db
-.DS_Store
 
-# Docker
-.docker/
+# misc
+*.pem
 
-# Logs
-*.log
-logs/
-
-# Environment files
-.env
-.env.local
-.env.*.local
-
-# Temporary files
-*.tmp
-*.temp
-
-# Overleaf/LaTeX
-overleaf_project/*.aux
-overleaf_project/*.bbl
-overleaf_project/*.bcf
-overleaf_project/*.blg
-overleaf_project/*.fdb_latexmk
-overleaf_project/*.fls
-overleaf_project/*.log
-overleaf_project/*.out
-overleaf_project/*.pdf
-overleaf_project/main.run.xml
+# typescript
+*.tsbuildinfo
