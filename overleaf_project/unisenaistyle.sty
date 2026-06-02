@@ -1,0 +1,17 @@
+% unisenaistyle.sty - estilo adicional para a classe UNISENAI
+\ProvidesPackage{unisenaistyle}[2025/05/06 UNISENAI style]
+\RequirePackage{times}
+\RequirePackage{titlesec}
+\RequirePackage{setspace}
+\RequirePackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\thepage}
+
+\titleformat{\section}{\bfseries\Large}{\thesection}{1em}{}
+\titleformat{\subsection}{\bfseries\normalsize}{\thesubsection}{1em}{}
+
+\renewcommand{\baselinestretch}{1.5}
+
+\endinput

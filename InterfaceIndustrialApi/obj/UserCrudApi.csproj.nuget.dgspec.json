@@ -1,30 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "/home/lucianojr/Documentos/interfaceIndustrialCrud/InterfaceIndustrialApi/UserCrudApi.csproj": {}
+    "/home/gabriel-ribeiro/Documentos/interfaceIndustrialCrud/InterfaceIndustrialApi/UserCrudApi.csproj": {}
   },
   "projects": {
-    "/home/lucianojr/Documentos/interfaceIndustrialCrud/InterfaceIndustrialApi/UserCrudApi.csproj": {
+    "/home/gabriel-ribeiro/Documentos/interfaceIndustrialCrud/InterfaceIndustrialApi/UserCrudApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/lucianojr/Documentos/interfaceIndustrialCrud/InterfaceIndustrialApi/UserCrudApi.csproj",
+        "projectUniqueName": "/home/gabriel-ribeiro/Documentos/interfaceIndustrialCrud/InterfaceIndustrialApi/UserCrudApi.csproj",
         "projectName": "UserCrudApi",
-        "projectPath": "/home/lucianojr/Documentos/interfaceIndustrialCrud/InterfaceIndustrialApi/UserCrudApi.csproj",
-        "packagesPath": "/home/lucianojr/.nuget/packages/",
-        "outputPath": "/home/lucianojr/Documentos/interfaceIndustrialCrud/InterfaceIndustrialApi/obj/",
+        "projectPath": "/home/gabriel-ribeiro/Documentos/interfaceIndustrialCrud/InterfaceIndustrialApi/UserCrudApi.csproj",
+        "packagesPath": "/home/gabriel-ribeiro/.nuget/packages/",
+        "outputPath": "/home/gabriel-ribeiro/Documentos/interfaceIndustrialCrud/InterfaceIndustrialApi/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/lucianojr/.nuget/NuGet/NuGet.Config"
+          "/home/gabriel-ribeiro/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net9.0"
+          "net8.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net9.0": {
-            "targetAlias": "net9.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -37,12 +37,11 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
+        }
       },
       "frameworks": {
-        "net9.0": {
-          "targetAlias": "net9.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
@@ -50,7 +49,7 @@
             },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
-              "version": "[9.0.8, )"
+              "version": "[8.0.5, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -82,12 +81,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[9.0.8, 9.0.8]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -96,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.418/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

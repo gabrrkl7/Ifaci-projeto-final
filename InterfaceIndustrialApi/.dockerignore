@@ -1,0 +1,10 @@
+bin/
+obj/
+.git/
+.gitignore
+.vs/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store

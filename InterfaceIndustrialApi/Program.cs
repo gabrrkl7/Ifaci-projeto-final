@@ -76,6 +76,20 @@ builder.Services.AddAuthorization();
 
 var app = builder.Build();
 
+// Apply migrations automatically
+using (var scope = app.Services.CreateScope())
+{
+    var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+    try
+    {
+        db.Database.Migrate();
+        Console.WriteLine("✓ Database migrations applied successfully");
+    }
+    catch (Exception ex)
+    {
+        Console.WriteLine($"✗ Error applying migrations: {ex.Message}");
+    }
+}
 
 if (app.Environment.IsDevelopment())
 {
